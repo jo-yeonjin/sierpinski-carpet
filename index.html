@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Sierpinski Carpet</title>
+
+    <link rel="stylesheet" herf="style.css">
+
+</head>
+
+<body>
+    <h1>Sierpinski Carpet</h1>
+    <canvas id="glCanvas" width="600" height="600"></canvas>
+    <label>
+        분할 횟수:
+        <input type="range" id="depth" min="0" max="5" value="1">
+    </label>
+    <label>
+        색상:
+        <input type="color" id="color" value="#ff0000">
+    </label>
+    <script src="main.js"></script>
+</body>
+</html>
