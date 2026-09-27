@@ -63,6 +63,8 @@ gl.useProgram(program);
 
 const colorLocation = gl.getUniformLocation(program,"uColor");
 
+gl.uniform4f(colorLocation, 1.0, 0.0, 0.0, 1.0);
+
 const colorInput = document.getElementById("color");
 
 function hexToRgb(hex){
